@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    align-items: flex-end;
+    margin: 0;
+    padding:0;
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    background: white;
+    margin:0;
+    padding:0;
+    
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+li:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
